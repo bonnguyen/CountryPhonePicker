@@ -60,6 +60,8 @@ CountryPicker countryPicker = new CountryPicker();
 countryPicker.show(getSupportFragmentManager(), CountryPicker.class.getSimpleName());
 ....
 
+```
+
 And get the result after selected:
 ```groovy
 countryPicker.setListener(new CountryPicker.CountryPickerListener() {
